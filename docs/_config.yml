@@ -1,12 +1,39 @@
-theme: jekyll-theme-cayman
 title: PolyRule Documentation
 description: Documentation for the PolyRule policy and rules management platform
 baseurl: "/polyrule"
 url: ""
-markdown: kramdown
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
+
+# Theme settings
+theme: just-the-docs
+color_scheme: dark
+
+# Use title instead of a logo
+# logo: "/assets/images/logo.png"
+
+# Enable or disable the site search
+search_enabled: true
+
+# Set the search token separator for hyphenated-word search
+search_tokenizer_separator: /[\s/]+/
+
+# Heading anchor links appear on hover over h1-h6 tags in page content
+heading_anchors: true
+
+# Aux links for the upper right navigation
+aux_links:
+  "PolyRule on GitHub":
+    - "//github.com/yourusername/polyrule"
+
+# Makes Aux links open in a new tab
+aux_links_new_tab: true
+
+# Sort order for navigation links
+nav_sort: case_sensitive # Capital letters sorted before lowercase
+
+# Footer content
+footer_content: "Copyright &copy; 2025 PolyRule. Distributed by an <a href=\"https://github.com/yourusername/polyrule/blob/main/LICENSE\">MIT license.</a>"
+
+# Exclude from processing
 exclude:
   - Gemfile
   - Gemfile.lock
