@@ -1,0 +1,17 @@
+theme: jekyll-theme-cayman
+title: PolyRule Documentation
+description: Documentation for the PolyRule policy and rules management platform
+baseurl: "/polyrule"
+url: ""
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
