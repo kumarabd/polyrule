@@ -4,7 +4,8 @@ baseurl: "/polyrule"
 url: ""
 
 # Theme settings
-theme: just-the-docs
+# Using remote_theme instead of theme for GitHub Pages compatibility
+remote_theme: just-the-docs/just-the-docs
 color_scheme: dark
 
 # Use title instead of a logo
@@ -32,6 +33,11 @@ nav_sort: case_sensitive # Capital letters sorted before lowercase
 
 # Footer content
 footer_content: "Copyright &copy; 2025 PolyRule. Distributed by an <a href=\"https://github.com/yourusername/polyrule/blob/main/LICENSE\">MIT license.</a>"
+
+# Plugins
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
 
 # Exclude from processing
 exclude:
