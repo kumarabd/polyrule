@@ -8,6 +8,7 @@ import Navbar from './components/Navbar';
 import Home from './components/pages/Home';
 import Policies from './components/pages/Policies';
 import Rules from './components/pages/Rules';
+import ChatInterface from './components/ChatInterface';
 
 // Create a theme
 const theme = createTheme({
@@ -21,7 +22,7 @@ const theme = createTheme({
   },
 });
 
-function App() {
+const App: React.FC = () => {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
@@ -35,10 +36,11 @@ function App() {
               <Route path="/rules" element={<Rules />} />
             </Routes>
           </main>
+          <ChatInterface />
         </div>
       </Router>
     </ThemeProvider>
   );
-}
+};
 
 export default App;

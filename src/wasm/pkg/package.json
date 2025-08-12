@@ -1,0 +1,17 @@
+{
+  "name": "chat",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "chat_bg.wasm",
+    "chat.js",
+    "chat_bg.js",
+    "chat.d.ts"
+  ],
+  "main": "chat.js",
+  "types": "chat.d.ts",
+  "sideEffects": [
+    "./chat.js",
+    "./snippets/*"
+  ]
+}

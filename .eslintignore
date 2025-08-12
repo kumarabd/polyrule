@@ -1,0 +1,2 @@
+# Ignore generated WASM glue code
+src/wasm/pkg/ 

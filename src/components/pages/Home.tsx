@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Typography, Paper, Box } from '@mui/material';
 
-function Home() {
+const Home: React.FC = () => {
   return (
     <Container maxWidth="lg">
       <Box sx={{ my: 4 }}>
@@ -23,6 +23,6 @@ function Home() {
       </Box>
     </Container>
   );
-}
+};
 
 export default Home;

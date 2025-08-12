@@ -5,7 +5,7 @@ import HomeIcon from '@mui/icons-material/Home';
 import PolicyIcon from '@mui/icons-material/Policy';
 import GavelIcon from '@mui/icons-material/Gavel';
 
-function Navbar() {
+const Navbar: React.FC = () => {
   return (
     <AppBar position="static">
       <Toolbar>
@@ -41,6 +41,6 @@ function Navbar() {
       </Toolbar>
     </AppBar>
   );
-}
+};
 
 export default Navbar;
